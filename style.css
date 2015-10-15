@@ -1,0 +1,40 @@
+#maps
+{
+	width: 800px;
+    min-height: 600px;
+    margin: auto;
+    padding: 0px;
+   
+}
+.container
+{
+    position: relative;
+    min-height: 85%;
+    width: 350px;
+    background-color: #112135;
+    border-radius: 6px;
+    box-shadow: 4px 5px 25px 1px black;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.onLeft
+{
+    float: left;
+}
+.form-Lg
+{
+    width: 90%;
+    font-size: 1.3em;
+    border-radius: 9px;
+    padding: 5px;
+}
+body
+{
+    background-color: #112156;
+}
+#fullscreen
+{
+    margin-bottom: 7px;
+    margin-left: 250px;
+}

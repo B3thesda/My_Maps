@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>une route pour rome</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+  <link href="style2.css" rel="stylesheet" />
+</head>
+<body onLoad="init()">
+  <div class="container">
+    <h1>une route pour rome</h1>
+  </div>
+  <div class="container onLeft">
+    <button type="button" id="fullscreen">Fullscreen</button>
+     <form id="panel">
+      <input id="depart" type="text" value="paris" class="form-Lg" />
+      <input type="button" value="submit" id="submit" />
+    </form>
+  </div>
+  <div>
+  	<h2 class="container onLeft">"toutes les routes mènes a Rome"</h2>
+  </div>
+  <div id="maps"></div>
+  <script type="text/javascript" src="maps2.js"></script>
+</body>
+</html>
